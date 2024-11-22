@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con el logo de la empresa -->
+    <header class="header">
+        <img src="images/bienvenido.jpg" alt="Logo Empresa" class="logo">
+        <p class="bienvenida">¡Bienvenido a nuestra tienda! Donde lo natural y lo auténtico se encuentran para ofrecerte lo mejor del campo.</p>
+    </header>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos">
+        <h2>Productos Destacados</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="images/producto1.jpg" alt="Producto 1" class="product-img">
+                <h3>Producto 1</h3>
+                <p>Descripción detallada de lo que hace especial al Producto 1. Es un producto de alta calidad, ideal para tus necesidades.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/producto2.jpg" alt="Producto 2" class="product-img">
+                <h3>Producto 2</h3>
+                <p>Descripción detallada de lo que hace especial al Producto 2. Con ingredientes frescos y naturales.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/producto3.jpg" alt="Producto 3" class="product-img">
+                <h3>Producto 3</h3>
+                <p>Descripción detallada de lo que hace especial al Producto 3. Perfecto para disfrutar en cualquier momento del día.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Sobre Nosotros -->
+    <section id="nosotros" class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa comprometida con la calidad y el respeto por el medio ambiente. Nuestros productos son elaborados con ingredientes frescos, provenientes directamente del campo.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
